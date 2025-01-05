@@ -196,6 +196,7 @@ export function DatabaseDashboard({ tables }: DatabaseDashboardProps) {
             data={tableData}
             columns={columns}
             onFilter={handleFilter}
+            tableName={activeTable} // Pass tableName to DataTable
           />
         ) : (
           <div className="h-full flex items-center justify-center">
