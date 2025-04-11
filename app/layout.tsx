@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Database Explorer',
-  description: 'A modern database exploration tool',
+  description: 'Database exploration tool',
 };
 
 export default function RootLayout({
